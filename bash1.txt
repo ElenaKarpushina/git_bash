@@ -1,0 +1,113 @@
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash
+$ pwd
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash
+$ mkdir test1
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash
+$ cd test1
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash/test1
+$ touch 1
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash/test1
+$ touch 2
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash/test1
+$ touch 3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash/test1
+$ ls
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash/test1
+$ cd
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ mkdir test2
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ rmdir test2
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash/test1
+$ rm 2
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ cd -
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash
+$ cd test1
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash/test1
+$ rm 2
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/OneDrive/Desktop/Новая папка/git_bash/test1
+$ cd
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ mkdir test3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ cd test3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ touch 1
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ touch 2
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ rm -f test3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ cd
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ mkdir test4
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ cd git_bash
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/git_bash
+$ cd test1
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/git_bash/test1
+$ mv 1 3 /c/Users/Honor/test4
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test4
+$ echo line > 1
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test4
+$ echo line >> 1
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test4
+$ echo Line >> 1
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test4
+$ cat 1
+line
+line
+Line
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test4
+$ echo line > 3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test4
+$ echo line >> 3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test4
+$ echo line >> 3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test4
+$ cat 1 3
+line
+line
+Line
+line
+line
+line
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test4
+$ nano 1
+
+
+

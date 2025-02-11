@@ -1,0 +1,115 @@
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ 
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ mkdir test3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ cd test3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ touch 3 4 5 6
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ ls
+3  4  5  6
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ nano 3 4 5 6
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ cat 3 4 5 6
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ grep row2 5
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ grep row 3
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ grep -c row 6
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ find 5
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ find . -type f -name "5" -delete
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ ls
+3  4  6
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ echo test > 4
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ ls
+3  4  6
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ cat 4
+test
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ nano 4
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ cat 4
+fail
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ echo test >> 4
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ cat 4
+fail
+test
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ ps aux
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1767    1202    1767      28360  cons0     197609 19:54:54 /usr/bin/ps
+     1202       1    1202      17752  cons0     197609 19:12:34 /usr/bin/bash
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ kill 666
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ ping rusau.net
+
+Обмен пакетами с rusau.net [5.181.161.75] с 32 байтами данных:
+Ответ от 5.181.161.75: число байт=32 время=1мс TTL=64
+Ответ от 5.181.161.75: число байт=32 время<1мс TTL=64
+Ответ от 5.181.161.75: число байт=32 время<1мс TTL=64
+Ответ от 5.181.161.75: число байт=32 время<1мс TTL=64
+
+Статистика Ping для 5.181.161.75:
+    Пакетов: отправлено = 4, получено = 4, потеряно = 0
+    (0% потерь)
+Приблизительное время приема-передачи в мс:
+    Минимальное = 0мсек, Максимальное = 1 мсек, Среднее = 0 мсек
+
+Honor@DESKTOP-S74B8RB MINGW64 ~/test3
+$ ping -c 5 rusau.net
+Доступ запрещен. Для параметра -c требуются права администратора.
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ curl -X GET "https://petstore.swagger.io/v2/pet/findByStatus?status=available,pending,sold"
+
+curl -X POST "https://petstore.swagger.io/v2/user" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": 12345,
+    "username": "CatDog",
+    "firstName": "Cat",
+    "lastName": "Dog",
+    "email": "cat@example.com",
+    "password": "pass1230",
+    "phone": "1234567890",
+    "userStatus": 0
+  }'
+
+Honor@DESKTOP-S74B8RB MINGW64 ~
+$ curl -X GET "https://petstore.swagger.io/v2/user/CatDog"
+{"id":12345,"username":"CatDog","firstName":"Cat","lastName":"Dog","email":"cat@example.com","password":"pass1230","phone":"1234567890","userStatus":0}
+
