@@ -1,2 +1,6 @@
-Работа с git и bash
-Здесь можно посмотреть файлы по работе с git bash - https://github.com/ElenaKarpushina/git_bash/commit/9dba3fff7a9e4efb07f1325ddbe0463cb729cc5b
+# git bash
+
+В соответствии с заданием, были выполнены работы с git bash  в [Visual Studio Code](https://code.visualstudio.com/):
+
++ Первую часть можно посмотреть [тут](https://github.com/ElenaKarpushina/git_bash/blob/main/bash1.txt);
++ Вторую часть задания можно посмотреть [здесь](https://github.com/ElenaKarpushina/git_bash/blob/main/bash2.txt).
